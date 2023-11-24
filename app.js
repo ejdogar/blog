@@ -144,23 +144,6 @@ app.get("/compose", function (req, res) {
   res.render("blog");
 });
 
-// app.get("/posts/:posttitle", async function (req, res) {
-//   var parameter = _.lowerCase(req.params.posttitle);
-//   try {
-//     postArray.forEach((post) => {
-//       if (_.lowerCase(post.title) === parameter) {
-//         res.render("post", {
-//           post: post,
-//         });
-//       } else {
-//         console.log("There is no such post.");
-//       }
-//     });
-//   } catch (err) {
-//     console.log("Error faced while loading this post ===> " + err);
-//   }
-// });
-
 async function getAllPosts() {
   try {
     postArray = [];
