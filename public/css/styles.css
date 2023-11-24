@@ -1,0 +1,11 @@
+a {
+  color: azure;
+}
+.post {
+  background-color: green;
+  color: azure;
+  margin: 3%;
+  border-radius: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
